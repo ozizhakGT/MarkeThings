@@ -2,6 +2,26 @@
   {
     "id": 1,
     "title": "50 Inch U7A Series Hisense 4K TV",
-    "image": "images/Hisense_TV.png"
+    "price": 299.99,
+    "image": "./images/Hisense_TV.png"
+  },
+  {
+    "id": 2,
+    "title": "Panasonic Microwave Oven",
+    "price": 49.99,
+    "image": "./images/panasonic-microwave"
+  },
+  {
+    "id": 3,
+    "title": "Carrera Blender X",
+    "price": 39.99,
+    "image": "./images/carrera_blender"
+  },
+  {
+    "id": 4,
+    "title": "DeLonghi Manual Coffee Machine",
+    "price": 89.99,
+    "image": "./images/coffee-machine"
   }
+
 ]
