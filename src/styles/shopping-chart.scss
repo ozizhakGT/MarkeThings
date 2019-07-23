@@ -1,4 +1,4 @@
-.shopping-chart {
+.shopping-cart {
   font-size: 1.2rem;
   flex-grow: 1;
   background-image: linear-gradient(var(--secondery-color), var(--secondery-color), var(--background-color));
@@ -35,5 +35,9 @@
   }
   .item:nth-child(odd) {
     background-color: lightgrey;
+  }
+  .no-item {
+    text-align: center;
+    font-size: 1.5rem;
   }
 }
