@@ -1,4 +1,3 @@
-var data = '../assets/data.json';
-var xhr = new XMLHttpRequest();
-xhr.open('get', data);
-console.log(xhr.send())
+// STYLES
+import style from '../styles/base.scss';
+

@@ -1,0 +1,37 @@
+.product {
+  width: 26rem;
+  border-radius: 10px;
+  background-color: var(--background-color);
+  font-size: 1.2rem;
+  box-shadow: var(--shadow);
+  margin: 2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  &__bottom {
+    padding: 1rem;
+    background-color: #b0b0b04f;
+  }
+  &__image {
+    margin-top: .7rem;
+    align-self: center;
+    width: 90%;
+  }
+  &__info {
+    b {
+      font-size: 1.4rem;
+    }
+    &--description {
+
+    }
+    &--price {
+
+    }
+  }
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

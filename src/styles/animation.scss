@@ -1,0 +1,17 @@
+/*ALL PROJECT ANIMATIONS*/
+
+@keyframes fadeIn {
+  0% {transform: translateY(-10px)}
+  40% { opacity: 1;}
+  100% { opacity: 1; transform: translateY(0px)}
+}
+
+@keyframes getDown {
+  0% {top: -100px}
+  100% {top: 0}
+}
+
+@keyframes getLeft {
+  0% {transform: translateX(60rem); box-shadow: none}
+  100% {transform: translateX(0); box-shadow: 0rem -20px 2rem 0px rgba(0, 0, 0, 0.3);}
+}

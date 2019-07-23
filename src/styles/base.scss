@@ -1,0 +1,66 @@
+//STYLES VARIABLES & MIXINS
+@import "variables";
+@import "mixins";
+@import "animation";
+// TEMPLATES
+@import "header";
+@import "catalog";
+@import "product";
+@import "shopping-chart";
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62%;
+    font-family: "Arial", sans-serif;
+    background-color: var(--background-color);
+    //opacity: 0;
+    height: 100%;
+}
+body {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+main {
+    display: flex;
+    width: 100%;
+}
+
+/* BUTTON DESIGN */
+
+.btn {
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--background-color);
+    transition: all .3s;
+    cursor: pointer;
+}
+/* GLOBAL BUTTONS*/
+.btn:focus {
+    outline: none;
+}
+.btn:hover {
+    transform: scale(1.01) translateY(-2px);
+    box-shadow: 0 .3rem 1rem rgba(0,0,0, .4);
+}
+.btn:active {
+    transform: scale(1) translateY(-1px);
+    box-shadow: 0 .1rem 1rem rgba(0,0,0, .4);
+}
+.remove-btn {
+    align-self: center;
+    color: white;
+    background-color: #ff0000a3;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: .4rem .7rem;
+}
+/*GLOBAL INPUTS*/
+.number-of_items {
+    input {
+        width: 3rem;
+        border: 0;
+        text-align: center;
+    }
+}

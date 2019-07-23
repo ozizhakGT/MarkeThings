@@ -1,0 +1,39 @@
+.shopping-chart {
+  font-size: 1.2rem;
+  flex-grow: 1;
+  background-image: linear-gradient(var(--secondery-color), var(--secondery-color), var(--background-color));
+  box-shadow: none;
+  transform: translateX(60rem);
+  animation: getLeft 1.6s 1.4s forwards ease-out;
+
+  &__title {
+    @include title;
+    margin-top: 12rem;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  &__products {
+  }
+
+  .item {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__info {
+      display: flex;
+      &--image {
+        width: 4rem;
+        height: 3.5rem;
+        margin-right: 1rem;
+      }
+    }
+    &__action {
+      text-align: center;
+      margin-right: 1.5rem;
+    }
+  }
+  .item:nth-child(odd) {
+    background-color: lightgrey;
+  }
+}
