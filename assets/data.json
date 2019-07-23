@@ -9,19 +9,18 @@
     "id": 2,
     "title": "Panasonic Microwave Oven",
     "price": 49.99,
-    "image": "./images/panasonic-microwave"
+    "image": "./images/panasonic-microwave.png"
   },
   {
     "id": 3,
     "title": "Carrera Blender X",
     "price": 39.99,
-    "image": "./images/carrera_blender"
+    "image": "./images/carrera_blender.png"
   },
   {
     "id": 4,
     "title": "DeLonghi Manual Coffee Machine",
     "price": 89.99,
-    "image": "./images/coffee-machine"
+    "image": "./images/coffee-machine.png"
   }
-
 ]
