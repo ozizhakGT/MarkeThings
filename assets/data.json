@@ -22,5 +22,41 @@
     "title": "DeLonghi Manual Coffee Machine",
     "price": 89.99,
     "image": "./images/coffee-machine.png"
+  },
+  {
+    "id": 5,
+    "title": "Haier Refrigerator",
+    "price": 499.99,
+    "image": "./images/refrigerator.png"
+  },
+  {
+    "id": 6,
+    "title": "LG 7kg Front Load Washer",
+    "price": 299.99,
+    "image": "./images/LG_WM.png"
+  },
+  {
+    "id": 7,
+    "title": "Blomberg Tumble Dryer",
+    "price": 449.99,
+    "image": "./images/blomberg_dryer.png"
+  },
+  {
+    "id": 8,
+    "title": "Russell Hobbs Kettle",
+    "price": 39.99,
+    "image": "./images/russell_hobbs_kettle.png"
+  },
+  {
+    "id": 9,
+    "title": "Bose SoundLink around-ear",
+    "price": 229.99,
+    "image": "./images/bose_headphones.png"
+  },
+  {
+    "id": 10,
+    "title": "Microsoft Surface Laptop",
+    "price": 1199.99,
+    "image": "./images/laptop.png"
   }
 ]
