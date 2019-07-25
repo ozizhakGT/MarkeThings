@@ -1,3 +1,4 @@
+// service for HTTP REQUEST TO GET ALL THE PRODUCTS
 export const getProducts = url => {
     return new Promise((resolve, reject) => {
         let xhr = new XMLHttpRequest();

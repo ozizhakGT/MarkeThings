@@ -19,5 +19,5 @@ export const renderProduct = (product) => {
                     </div>
                 </div>`;
 
-    elements.catalog.insertAdjacentHTML('afterbegin', markup)
+    elements.catalog.insertAdjacentHTML('beforeend', markup)
 }

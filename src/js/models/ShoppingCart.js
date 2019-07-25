@@ -1,3 +1,6 @@
+//SHOPPING CART MODEL
+
+//DUPLICATE VALIDATION BEFOR EPUSH TO SHOPPING CART ARRAY
 export const checkDuplicateProducts = (arr, product) => {
     if (arr.length > 0) {
         for (let i = 0; i < arr.length; i++) {
@@ -8,8 +11,9 @@ export const checkDuplicateProducts = (arr, product) => {
     }
     return true;
 };
-export const total = (arr) => {
-    // debugger
+
+// WILL CALCULATE TOTAL SUMS OF ALL PRODUCTS IN THE SHOPPING CART
+export const calculateTotalPrice = (arr) => {
     let total = 0;
     if (arr.length > 0) {
         arr.forEach(product => {
@@ -19,8 +23,13 @@ export const total = (arr) => {
     return parseInt(total).toFixed(2);
 };
 
+// REMOVE PRODUCT FROM STATE PRODUCTS ARRAY
 export const onRemove = (products, id) => {
     const index = products.findIndex(product => product.id === id);
     products.splice(index, 1).slice();
-    return total(products)
 };
+
+
+export const onReset = (state) => {
+    state['shoppingCart'] = [];
+}
