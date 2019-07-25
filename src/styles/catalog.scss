@@ -3,13 +3,13 @@
   width: 70%;
   opacity: 0;
   animation: fadeIn 2s 1.4s forwards;
-
   &__title {
     @include title;
     font-size: 3.5rem;
   }
   &__wrapper {
-    //width: ;
+    height: 700px;
+    overflow: auto;
     background-color: lightgrey;
     border-radius: 10px;
     box-shadow: var(--shadow);

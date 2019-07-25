@@ -40,4 +40,25 @@
     text-align: center;
     font-size: 1.5rem;
   }
+  .total {
+    position: absolute;
+    bottom: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+
+    &-price {
+      font-weight: bold;
+    }
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .shopping-cart {
+    .total {
+      bottom: 25rem;
+      font-size: 1.6rem;
+    }
+  }
+
 }

@@ -3,60 +3,60 @@
     "id": 1,
     "title": "50 Inch U7A Series Hisense 4K TV",
     "price": 299.99,
-    "image": "./images/Hisense_TV.png"
+    "image": "./assets/images/Hisense_TV.png"
   },
   {
     "id": 2,
     "title": "Panasonic Microwave Oven",
     "price": 49.99,
-    "image": "./images/panasonic-microwave.png"
+    "image": "./assets/images/panasonic-microwave.png"
   },
   {
     "id": 3,
     "title": "Carrera Blender X",
     "price": 39.99,
-    "image": "./images/carrera_blender.png"
+    "image": "./assets/images/carrera_blender.png"
   },
   {
     "id": 4,
     "title": "DeLonghi Manual Coffee Machine",
     "price": 89.99,
-    "image": "./images/coffee-machine.png"
+    "image": "./assets/images/coffee-machine.png"
   },
   {
     "id": 5,
     "title": "Haier Refrigerator",
     "price": 499.99,
-    "image": "./images/refrigerator.png"
+    "image": "./assets/images/refrigerator.png"
   },
   {
     "id": 6,
     "title": "LG 7kg Front Load Washer",
     "price": 299.99,
-    "image": "./images/LG_WM.png"
+    "image": "./assets/images/LG_WM.png"
   },
   {
     "id": 7,
     "title": "Blomberg Tumble Dryer",
     "price": 449.99,
-    "image": "./images/blomberg_dryer.png"
+    "image": "./assets/images/blomberg_dryer.png"
   },
   {
     "id": 8,
     "title": "Russell Hobbs Kettle",
     "price": 39.99,
-    "image": "./images/russell_hobbs_kettle.png"
+    "image": "./assets/images/russell_hobbs_kettle.png"
   },
   {
     "id": 9,
     "title": "Bose SoundLink around-ear",
     "price": 229.99,
-    "image": "./images/bose_headphones.png"
+    "image": "./assets/images/bose_headphones.png"
   },
   {
     "id": 10,
     "title": "Microsoft Surface Laptop",
     "price": 1199.99,
-    "image": "./images/laptop.png"
+    "image": "./assets/images/laptop.png"
   }
 ]
