@@ -26,7 +26,7 @@ const state = {};
 // Product Controller
 const productController = async () => {
     // GETTING PRODUCTS DATA FOR CATALOG SECTION
-    await api.getProducts('./assedts/data.json').then(res => {
+    await api.getProducts('./assets/data.json').then(res => {
 
         // ADDING TO STATE PRODUCTS ARRAY PRODUCT CLASS WITH ALL INFORMATION AND METHODS
         state.products = JSON.parse(res).map(product => {
